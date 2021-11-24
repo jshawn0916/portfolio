@@ -1,0 +1,9 @@
+/* reset */
+@import url('reset.css');
+@import url('webfont.css');
+@import url('webfont2.css');
+
+/* pages */
+@import url('../pages/main.css');
+@import url('../pages/career.css');
+@import url('../pages/projects.css');

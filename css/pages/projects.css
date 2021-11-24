@@ -1,0 +1,159 @@
+.projects.contents-wrap{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects.contents-wrap .contents-project-box{
+    width: calc((100% - 50px)/2);
+    background-color: #fff;
+    padding: 55px 30px;
+    display: flex;
+}
+.projects.contents-wrap .contents-project-box:nth-child(2n){
+    margin-left: 50px;
+}
+.projects.contents-wrap .contents-project-box:nth-child(n+3){
+    margin-top: 50px;
+}
+.projects.contents-wrap .contents-project-box .contents-left-box{
+    margin-right: 20px;
+    width: 45.87%;
+}
+.projects.contents-wrap .contents-project-box .contents-left-box .img-box{
+    margin-bottom: 46px;
+    /* width: 250px; */
+    height: 170px;
+}
+.projects.contents-wrap .contents-project-box .contents-left-box .img-box.newbalance{
+    background: url(../../img/object/newbalance-mockup.png) 0 0 no-repeat;
+    background-size: contain;
+    background-position:center;
+}
+.projects.contents-wrap .contents-project-box .contents-left-box .img-box.starbucks{
+    background: url(../../img/object/starbucks-mockup.png) 0 0 no-repeat;
+    background-size: contain;
+    background-position:center;
+}
+.projects.contents-wrap .contents-project-box .contents-left-box .img-box.ikea{
+    background: url(../../img/object/ikea-mockup.png) 0 0 no-repeat;
+    background-size: contain;
+    background-position:center;
+}
+/* .projects.contents-wrap .contents-project-box .contents-right-box{
+} */
+.projects.contents-wrap .contents-project-box .contents-right-box .projects-txt.title{
+    font-size: 1.325rem;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .projects-txt.sub{
+    color: #525252;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .projects-txt-box{
+    display: flex;
+    align-items: center;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .projects-txt-box .projects-txt{
+    font-size: 1.125rem;
+    color: #525252;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .projects-txt-box .projects-txt:first-child{
+    min-width: 72px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .projects-txt-box .projects-txt + .projects-txt{
+    margin-left: 44px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap{
+    margin-top: 20px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .use-txt{
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+    color: #525252;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box{
+    display: flex;
+    align-items: center;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-txt.title{
+    min-width: 100px;
+    margin-right: 10px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box{
+    width: 110px;
+    height: 8px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box .percent-gauge{
+    height: 8px;
+    border-radius: 5px;
+    width: 0px;
+    transition: ease 1s all;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.html{
+    background-color: rgba(255, 218, 161, .34);
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.css{
+    background-color: rgba(255, 184, 107, .22);
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.js{
+    background-color: rgba(53, 100, 187, .33);
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.html .percent-gauge{
+    background-color: #ffcb38;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.css .percent-gauge{
+    background-color: #FFB86B;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.js .percent-gauge{
+    background-color: #3564BB;
+}
+/* percent-guage width */
+
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.html .newbalance.show{
+    width: 40px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.css .newbalance.show{
+    width: 60px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.js .newbalance.show{
+    width: 24px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.html .starbucks.show{
+    width: 36px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.css .starbucks.show{
+    width: 28px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.js .starbucks.show{
+    width: 68px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.html .ikea.show{
+    width: 54px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.css .ikea.show{
+    width: 62px;
+}
+.projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box .percent-bar-box.js .ikea.show{
+    width: 30px;
+}
+
+/*media query*/
+
+/* max : 1260px */
+
+@media (max-width: 1260px){
+    .projects.contents-wrap .contents-project-box{
+        display: block;
+    }
+    .projects.contents-wrap .contents-project-box .contents-left-box{
+        width: 100%;
+    }
+    .projects.contents-wrap .contents-project-box .contents-left-box .img-box{
+        width: auto;
+    }
+    .projects.contents-wrap .contents-project-box .contents-right-box .percent-wrap .percent-box{
+        justify-content: space-between;
+    }
+}
