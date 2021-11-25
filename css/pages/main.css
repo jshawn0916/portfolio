@@ -47,8 +47,8 @@
     margin: 50px 0 140px;
 }
 .navi-bar .navi-top-wrap .logo{
-    width: 54px;
-    height: 54px;
+    width: 60px;
+    height: 60px;
     margin: 0 auto;
 }
 .navi-bar .navi-btn-wrap .navi-btn{
@@ -292,7 +292,7 @@
     padding: 30px;
 }
 .contents-section .contents-mid-wrap .title-txt{
-    font-size: 1.25rem;
+    font-size: 1.325rem;
     margin-top: 0;
     margin-bottom: 30px;
     font-family: 'noto-Medium';
@@ -409,7 +409,7 @@
     font-size: 1.125rem;
 }
 .contents-section .contents-bottom-wrap .title-txt{
-    font-size: 1.25rem;
+    font-size: 1.325rem;
     margin-top: 0;
     margin-bottom: 40px;
     font-family: 'noto-Medium';
@@ -478,8 +478,8 @@
         font-size: 15px;
     }
     .navi-bar .navi-top-wrap .logo{
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
     .navi-bar .navi-top-wrap .logo-txt{
         font-size: 1.35rem;
@@ -578,8 +578,8 @@
         width: 110px;
     }
     .navi-bar .navi-top-wrap .logo{
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
     .navi-bar .navi-top-wrap .logo-txt{
         font-size: 1.35rem;
