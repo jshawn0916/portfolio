@@ -1,3 +1,9 @@
+.contents-section .career.title-txt{
+    margin-top: 44px;
+    font-size: 3.5rem;
+    font-family: 'Lobster', cursive;
+    color: #071436;
+}
 .career.contents-top-wrap{
     display: flex;
 }
@@ -20,7 +26,7 @@
     margin-bottom: 20px;
 }
 .career.contents-top-wrap .contents-right-box .career-txt-box .career-txt.title{
-    font-family: 'GmarketSans_b';
+    font-family: 'noto-Bold';
     font-size: 1.5rem;
     margin-right: 30px;
 }
@@ -35,7 +41,7 @@
     padding-left: 20px;
 }
 .career.contents-top-wrap .contents-right-box .career-txt-wrap li{
-    font-family: 'GmarketSans_m';
+    font-family: 'noto-Medium';
     color: #000;
     list-style-type: disc;
     line-height: 30px;
@@ -44,6 +50,7 @@
     font-size: 1.125rem;
     margin-top: 20px;
     color: #015563;
+    font-family: 'noto-Medium';
 }
 .career.contents-bottom-wrap{
     margin-top: 50px;
@@ -61,6 +68,7 @@
 }
 .career.contents-bottom-wrap .bottom-wrap.site .career-txt.title{
     font-size: 1.5rem;
+    font-family: 'noto-Bold';
 }
 .career.contents-bottom-wrap .bottom-wrap.site .career-txt.date{
     color: #525252;
@@ -75,7 +83,7 @@
 }
 .career.contents-bottom-wrap .bottom-wrap.site .bottom-box li{
     list-style-type: disc;
-    font-family: 'GmarketSans_m';
+    font-family: 'noto-Medium';
     color: #000;
     line-height: 30px;
 }
@@ -97,7 +105,7 @@
     list-style-type: disc;
     color: #015563;
     line-height: 30px;
-    font-family: 'GmarketSans_m';
+    font-family: 'noto-Medium';
     font-size: 1.125rem;
 }
 .career.contents-bottom-wrap .bottom-wrap.shortcut .shortcut-box .img-box{
@@ -106,7 +114,7 @@
 .go-btn{
     height: 38px;
     padding: 4px 32px;
-    font-family: 'GmarketSans_m';
+    font-family: 'noto-Bold';
     border-radius: 7px;
     border: 1px solid #f1f1f1;
     background: linear-gradient(#fff 0%, #EDEDED 60%, #fff 100%);
